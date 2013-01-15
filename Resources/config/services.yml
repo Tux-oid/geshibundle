@@ -1,0 +1,3 @@
+services:
+    rl_geshi.geshi:
+        class:        RL\GeSHiBundle\GeSHi
