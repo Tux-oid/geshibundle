@@ -28,7 +28,7 @@
 
 namespace RL\GeSHiBundle;
 
-require_once __DIR__ . "/../../../../GeSHi/GeSHi/src/geshi.php";
+require_once __DIR__ . "/../../../../easybook/geshi/geshi.php";
 
 /**
  * RL\GeSHiBundle\GeSHi
