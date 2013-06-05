@@ -15,23 +15,9 @@
         "psr-0": { "RL\\GeSHiBundle": "" }
     },
     "target-dir": "RL/GeSHiBundle",
-    "repositories":[
-        {
-            "type":"package",
-            "package":{
-                "name":"GeSHi/GeSHi",
-                "version":"dev-master",
-                "source":{
-                    "url":"https://geshi.svn.sourceforge.net/svnroot/geshi",
-                    "type":"svn",
-                    "reference":"branches/RELEASE_1_0_X_STABLE/geshi-1.0.X/"
-                }
-            }
-        }
-    ],
     "require":{
         "php":">=5.3.3",
         "symfony/symfony":"2.*",
-        "GeSHi/GeSHi":"dev-master"
+        "easybook/geshi": "dev-master"
     }
 }
